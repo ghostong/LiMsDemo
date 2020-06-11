@@ -4,15 +4,10 @@
  * 项目入口
  */
 
-
 date_default_timezone_set("Asia/Shanghai");
 
-//vendor
-define("VENDOR_DIR", dirname(dirname(dirname(__DIR__))).'/LitMs');
-
 //autoload
-require(VENDOR_DIR.'/vendor/autoload.php');
-
+require( __DIR__. "/vendor/autoload.php" );
 
 $server = new \Lit\Ms\LitMsServer();
 

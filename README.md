@@ -1,13 +1,15 @@
-### 安装
+### 使用Composer 安装
 ````
 #执行如下命令安装,安装后使用文档中的调用方法即可使用.
 composer require lit/ms
+然后修改 Server.php 中 autoload 为自己的 vendor/autoload.php .
+
+#执行如下命令,直接创建项目(demo).
+composer create-project  lit/ms-demo project-name
 ````
 
 ### 初始化项目
-1. composer安装好项目后,下载 https://github.com/ghostong/help/tree/master/LitMs/demo 地址中的文件到项目目录.
-2. 修改 Server.php 中 autoload 为自己的 vendor/autoload.php .
-3. 修改 Server.php 的配置项, 每个配置项都有系统默认值
+修改 Server.php 的配置项, 每个配置项都有系统默认值
 
 ### 代码详解
 1. Server.php

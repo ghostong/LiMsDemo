@@ -15,7 +15,7 @@
         "php": ">=7.1.0",
         "lit/ms": "^0.1.0"
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "autoload": {
         "files": [],
         "psr-4": {
